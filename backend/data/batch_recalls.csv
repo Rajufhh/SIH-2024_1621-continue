@@ -1,0 +1,21 @@
+Batch_Number,Product_Name,Recall_Reason,Recall_Date
+LOT201,Medicine 1,Contamination,2024-01-01
+LOT202,Medicine 2,Incorrect Labeling,2024-01-02
+LOT203,Medicine 3,Expired Stock,2024-01-03
+LOT204,Medicine 4,Contamination,2024-01-04
+LOT205,Medicine 5,Incorrect Labeling,2024-01-05
+LOT206,Medicine 6,Expired Stock,2024-01-06
+LOT207,Medicine 7,Contamination,2024-01-07
+LOT208,Medicine 8,Incorrect Labeling,2024-01-08
+LOT209,Medicine 9,Expired Stock,2024-01-09
+LOT210,Medicine 10,Contamination,2024-01-10
+LOT211,Medicine 11,Incorrect Labeling,2024-01-11
+LOT212,Medicine 12,Expired Stock,2024-01-12
+LOT213,Medicine 13,Contamination,2024-01-13
+LOT214,Medicine 14,Incorrect Labeling,2024-01-14
+LOT215,Medicine 15,Expired Stock,2024-01-15
+LOT216,Medicine 16,Contamination,2024-01-16
+LOT217,Medicine 17,Incorrect Labeling,2024-01-17
+LOT218,Medicine 18,Expired Stock,2024-01-18
+LOT219,Medicine 19,Contamination,2024-01-19
+LOT220,Medicine 20,Incorrect Labeling,2024-01-20

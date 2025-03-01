@@ -1,0 +1,21 @@
+Manufacturer_ID,Name,Status,Certification
+MFG10001,PharmaCorp 1,Compliant,CDSCO/NABL Approved
+MFG10002,PharmaCorp 2,Non-Compliant,License Suspended
+MFG10003,PharmaCorp 3,Compliant,CDSCO/NABL Approved
+MFG10004,PharmaCorp 4,Non-Compliant,License Suspended
+MFG10005,PharmaCorp 5,Compliant,CDSCO/NABL Approved
+MFG10006,PharmaCorp 6,Non-Compliant,License Suspended
+MFG10007,PharmaCorp 7,Compliant,CDSCO/NABL Approved
+MFG10008,PharmaCorp 8,Non-Compliant,License Suspended
+MFG10009,PharmaCorp 9,Compliant,CDSCO/NABL Approved
+MFG10010,PharmaCorp 10,Non-Compliant,License Suspended
+MFG10011,PharmaCorp 11,Compliant,CDSCO/NABL Approved
+MFG10012,PharmaCorp 12,Non-Compliant,License Suspended
+MFG10013,PharmaCorp 13,Compliant,CDSCO/NABL Approved
+MFG10014,PharmaCorp 14,Non-Compliant,License Suspended
+MFG10015,PharmaCorp 15,Compliant,CDSCO/NABL Approved
+MFG10016,PharmaCorp 16,Non-Compliant,License Suspended
+MFG10017,PharmaCorp 17,Compliant,CDSCO/NABL Approved
+MFG10018,PharmaCorp 18,Non-Compliant,License Suspended
+MFG10019,PharmaCorp 19,Compliant,CDSCO/NABL Approved
+MFG10020,PharmaCorp 20,Non-Compliant,License Suspended

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script>
+        async function checkMedicine() {
+            const medicineName = document.getElementById('medicineName').value;
+            const response = await fetch(`http://127.0.0.1:8000/check_medicine/${medicineName}`);
+            const data = await response.json();
+            document.getElementById('result').innerText = JSON.stringify(data, null, 2);
+        }
+    </script>
+</head>
+<body>
+    <h1>Medicine Checker</h1>
+    <input type="text" id="medicineName" placeholder="Enter medicine name" />
+    <button onclick="checkMedicine()">Check Medicine</button>
+    <pre id="result"></pre>
+</body>
+</html>

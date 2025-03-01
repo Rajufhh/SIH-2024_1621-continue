@@ -1,0 +1,27 @@
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-03-01T18:35:55.638Z"}
+{"level":"info","message":"Using server.js file with Clerk authentication and logging","timestamp":"2025-03-01T18:35:55.644Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-01T18:35:55.673Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-03-01T18:36:41.068Z"}
+{"level":"info","message":"Using server.js file with Clerk authentication and logging","timestamp":"2025-03-01T18:36:41.072Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-01T18:36:41.095Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-03-01T18:36:48.844Z"}
+{"level":"info","message":"Using server.js file with Clerk authentication and logging","timestamp":"2025-03-01T18:36:48.851Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-01T18:36:48.873Z"}
+{"level":"info","message":{"duration":"5ms","ip":"::ffff:127.0.0.1","method":"GET","path":"/","status":200,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:48:27.984Z"}
+{"level":"info","message":{"duration":"5ms","ip":"::ffff:127.0.0.1","method":"GET","path":"/docs","status":404,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:48:30.299Z"}
+{"level":"info","message":{"duration":"3ms","ip":"::ffff:127.0.0.1","method":"GET","path":"/docs","status":404,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:48:31.740Z"}
+{"level":"info","message":{"duration":"2ms","ip":"::ffff:127.0.0.1","method":"GET","path":"/","status":304,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:48:37.319Z"}
+{"level":"info","message":{"duration":"1ms","ip":"::ffff:127.0.0.1","method":"GET","path":"/docs","status":404,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:49:00.142Z"}
+{"level":"info","message":{"duration":"2ms","ip":"::ffff:127.0.0.1","method":"GET","path":"/docs","status":404,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:49:01.309Z"}
+{"level":"info","message":{"duration":"2ms","ip":"::ffff:127.0.0.1","method":"GET","path":"/docs","status":404,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:49:03.722Z"}
+{"level":"info","message":{"duration":"2ms","ip":"::1","method":"OPTIONS","path":"/analyze_batch","status":204,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:54:07.174Z"}
+{"level":"info","message":{"duration":"3ms","ip":"::1","method":"POST","path":"/analyze_batch","status":404,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:54:08.153Z"}
+{"level":"info","message":{"duration":"1ms","ip":"::1","method":"OPTIONS","path":"/analyze_batch","status":204,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:54:59.214Z"}
+{"level":"info","message":{"duration":"1ms","ip":"::1","method":"POST","path":"/analyze_batch","status":404,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:54:59.223Z"}
+{"level":"info","message":{"duration":"1ms","ip":"::1","method":"OPTIONS","path":"/analyze_batch","status":204,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:56:49.538Z"}
+{"level":"info","message":{"duration":"2ms","ip":"::1","method":"POST","path":"/analyze_batch","status":404,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:56:49.545Z"}
+{"level":"info","message":{"duration":"1ms","ip":"::1","method":"OPTIONS","path":"/analyze_batch","status":204,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:57:06.544Z"}
+{"level":"info","message":{"duration":"1ms","ip":"::1","method":"POST","path":"/analyze_batch","status":404,"userId":"anonymous","userRole":"anonymous"},"timestamp":"2025-03-01T18:57:06.553Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-03-01T19:05:37.793Z"}
+{"level":"info","message":"Using server.js file with Clerk authentication and logging","timestamp":"2025-03-01T19:05:37.797Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-01T19:05:37.816Z"}

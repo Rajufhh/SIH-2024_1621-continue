@@ -1,0 +1,21 @@
+batch_id,medicine_name,dosage,expiry_date,manufacturer,pass_quality_check
+BATCH001,Paracetamol,500,2026-08-15,Company A,Yes
+BATCH002,Ibuprofen,400,2025-12-10,Company B,No
+BATCH003,Amoxicillin,250,2027-05-01,Company C,Yes
+BATCH004,Azithromycin,500,2025-06-20,Company A,Yes
+BATCH005,Ciprofloxacin,450,2024-03-30,Company B,No
+BATCH006,Doxycycline,100,2026-11-05,Company C,Yes
+BATCH007,Metronidazole,400,2023-12-01,Company D,No
+BATCH008,Aspirin,325,2025-09-18,Company E,Yes
+BATCH009,Diclofenac,50,2027-02-10,Company F,Yes
+BATCH010,Naproxen,500,2024-05-25,Company G,No
+BATCH011,Cetirizine,10,2026-04-14,Company H,Yes
+BATCH012,Loratadine,10,2023-08-12,Company I,No
+BATCH013,Fexofenadine,120,2028-01-05,Company J,Yes
+BATCH014,Ranitidine,150,2025-07-08,Company A,Yes
+BATCH015,Omeprazole,20,2026-03-22,Company B,Yes
+BATCH016,Pantoprazole,40,2023-10-30,Company C,No
+BATCH017,Esomeprazole,40,2024-12-25,Company D,Yes
+BATCH018,Atorvastatin,10,2026-09-15,Company E,Yes
+BATCH019,Simvastatin,20,2027-06-20,Company F,Yes
+BATCH020,Rosuvastatin,10,2025-11-11,Company G,No
