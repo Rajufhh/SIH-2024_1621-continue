@@ -2,6 +2,16 @@ import axios from "axios";
 
 const API_BASE_URL = "http://localhost:8001/api/supplychain"; // Update if deployed
 
+export const fetchChatbotResponse = async (userInput) => {
+  try {
+    const response = await axios.post(`${API_BASE_URL}/chatbot`, { input: userInput });
+    return response.data;
+  } catch (error) {
+    console.error("❌ Error fetching chatbot response:", error);
+    throw error;
+  }
+};
+
 // ✅ Fetch All Orders
 export const fetchOrders = async () => {
   try {

@@ -7,7 +7,7 @@ import AboutUs from "./Component/AboutUs";
 import Model from "./Component/Model";
 import Home from "./Component/Home";
 import Contact from "./Component/Contact";
-import Dashboard from "./Component/dashboard";
+import Dashboard from "./Component/Dashboard";
 import { useState, useEffect } from 'react';
 
 // User Profile Components

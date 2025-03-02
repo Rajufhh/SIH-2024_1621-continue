@@ -3,7 +3,12 @@ import { useNavigate } from 'react-router-dom';
 import homeimage1 from '../assets/homeimage1.jpg';
 
 function Home() {
-    const navigate = useNavigate(); // Initialize the navigate function
+    const navigate = useNavigate();
+    
+    const handleGetStarted = () => {
+      navigate('/dashboard');
+    };
+    // Initialize the navigate function
 
     const handleSignInClick = () => {
       navigate('/sign-in'); // Redirect to the Sign In page
