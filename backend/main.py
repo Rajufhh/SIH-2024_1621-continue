@@ -29,11 +29,26 @@ app = FastAPI()
 # Enable CORS for frontend communication
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Explicitly allow frontend origin
+    allow_origins=["http://localhost:5176"],  # Explicitly allow frontend origin
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.post("/gemini")
+async def gemini(request: dict):
+    try:
+        message = request.get("message")
+        history = request.get("history", [])
+        # Use Google Gemini AI
+        model = genai.GenerativeModel('gemini-pro')
+        chat = model.start_chat(history=history)
+        response = await chat.send_message(message)
+        return {"response": response.text}
+    except Exception as e:
+        logger.error(f"Error in /gemini: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 # Configure Google Gemini AI
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "YOUR_API_KEY_HERE")  # Use env var or replace with actual key

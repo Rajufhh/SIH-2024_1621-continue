@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="header-left">
+                <i class="fas fa-robot"></i>
+                <h1>AI Assistant</h1>
+            </div>
+            <div class="header-right">
+                <span class="status-indicator"></span>
+                <span class="status-text">Online</span>
+            </div>
+        </header>
+
+        <div class="chat-messages" id="chatbox">
+            <div class="welcome-message">
+                <h2>👋 Welcome!</h2>
+                <p>I'm your AI assistant. How can I help you today?</p>
+            </div>
+        </div>
+
+        <div class="chat-input-container">
+            <div class="input-wrapper">
+                <input 
+                    type="text" 
+                    id="messageInput" 
+                    placeholder="Type your message..." 
+                    aria-label="Message input"
+                />
+                <div class="input-actions">
+                    <button class="action-button" id="clearButton" title="Clear chat">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                    <button class="action-button" id="sendButton" title="Send message">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="typing-indicator" id="typingIndicator" style="display: none;">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <script src="chatbot.js"></script>
+</body>
+</html>
